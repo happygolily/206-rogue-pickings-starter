@@ -1,0 +1,199 @@
+/*MOBILE FIRST CSS STYLE SHEET*/ /* formatted for iPhone X*/
+
+html {
+	font-size: 16px;	
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.container{	
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875rem; /*30px*/
+	text-align: center;
+}
+h2 {
+	font-size: 1.125rem; /*18px*/
+}
+h3 {
+	font-size: 0.75rem; /*12px*/
+}
+
+p {
+	font-size: 0.875rem; /*14px*/
+	line-height: 1.3rem; /*21px*/
+    /*padding: 0 30px; removed*/
+}
+
+/*The widths are in a percentage!*/
+header {
+	/*height: 110px; removed*/
+	/*border-bottom: 3px solid #77a466; removed*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+	flex-flow: row wrap;
+}
+
+header h1 {
+	/*float: left; removed*/
+	margin: 0;
+	padding: 20px 0;
+	width: 95%;
+	border-bottom: 3px solid #77a466;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	/*float: right; removed*/
+	padding: 20px 0;
+	width: 90%;
+	text-align: center;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875rem; /*14px*/
+	padding: 5px 10px;
+	/*display: inline; removed*/
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+	
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	/*clear: both; removed*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	flex-flow: row wrap;
+}
+
+.main-image {
+	height: auto;
+	/*float: left; removed*/
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	/*float: left; removed*/
+	border-bottom: 1px solid #eee;
+}
+.main-title h2 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1rem; /*16px*/
+	line-height: 1.5rem; /*25px*/
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	/*float: left; removed*/
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+/* CSS BLOCKS REMOVED FOR MOBILE
+.section-one h3 {
+	padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: 10px 30px;
+} 
+*/
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1rem; /*16px*/
+	line-height: 1.3rem; /*21px*/
+}
+
+.address {
+	font-size: 1rem; /*16px*/
+	line-height: 1.5rem; /*24px*/
+}
+
+/*The widths are in a percentage!*/
+footer {
+	/*height: 50px; removed*/
+	border-top: 1px solid #eee;
+	margin: 0 auto;
+	/*clear: both; removed*/
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	flex-flow: row wrap;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875rem; /*14px*/
+}
