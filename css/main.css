@@ -1,4 +1,4 @@
-/*MOBILE FIRST CSS STYLE SHEET*/ /* formatted for iPhone X*/
+/*MOBILE FIRST CSS STYLE SHEET*/ /* styled for iPhone X*/
 
 html {
 	font-size: 16px;	
@@ -15,8 +15,9 @@ body {
 }
 
 .container{	
+	max-width: 1200px;
 	width: 90%;
-	margin: 0 auto;
+	/*margin: 0 auto; removed*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,7 +56,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 95%;
+	width: 100%;
 	flex-flow: row wrap;
 }
 
@@ -63,7 +64,7 @@ header h1 {
 	/*float: left; removed*/
 	margin: 0;
 	padding: 20px 0;
-	width: 95%;
+	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 header h1 span {
@@ -72,12 +73,12 @@ header h1 span {
 
 header nav {
 	/*float: right; removed*/
-	padding: 20px 0;
-	width: 90%;
+	padding: 5px 0;
+	width: 100%;
 	text-align: center;
 }
 header nav ul {
-	margin: 0;
+	/*margin: 0; removed*/
 	padding: 0;
 	list-style-type: none;
 }
@@ -97,19 +98,21 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0 auto;
+	/*margin: 0 auto; removed*/
 	/*clear: both; removed*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	flex-flow: row wrap;
 }
 
+/*
 .main-image {
 	height: auto;
-	/*float: left; removed*/
-}
+	float: left;
+} removed*/
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -136,7 +139,7 @@ header nav ul li a{
 .section-two,
 .section-three {
 	width: 100%;
-	height: auto;
+	/*height: auto; removed*/
 	/*float: left; removed*/
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
@@ -181,14 +184,14 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
 	/*height: 50px; removed*/
-	border-top: 1px solid #eee;
+	border-top: 3px solid #77a466;
 	margin: 0 auto;
 	/*clear: both; removed*/
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	flex-flow: row wrap;
 }
 footer span {
@@ -196,4 +199,45 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875rem; /*14px*/
+}
+
+@media all and (min-width: 768px) {
+	.bottom-section{
+		justify-content: space-between;
+		align-items: flex-start;
+		border-top: 1px solid #eee;
+	}
+	.section-one, .section-two, .section-three {
+		flex-basis: 30%;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		padding: 0 20px;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	header {
+		justify-content: space-between;
+	}
+
+	header h1{
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+	
+	header nav ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header nav {
+		width: 40%;
+	}
 }
