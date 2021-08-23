@@ -17,7 +17,6 @@ body {
 .container{	
 	max-width: 1200px;
 	width: 90%;
-	/*margin: 0 auto; removed*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,13 +44,10 @@ h3 {
 p {
 	font-size: 0.875rem; /*14px*/
 	line-height: 1.3rem; /*21px*/
-    /*padding: 0 30px; removed*/
 }
 
-/*The widths are in a percentage!*/
+
 header {
-	/*height: 110px; removed*/
-	/*border-bottom: 3px solid #77a466; removed*/
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -61,7 +57,6 @@ header {
 }
 
 header h1 {
-	/*float: left; removed*/
 	margin: 0;
 	padding: 20px 0;
 	width: 100%;
@@ -72,13 +67,11 @@ header h1 span {
 }
 
 header nav {
-	/*float: right; removed*/
 	padding: 5px 0;
 	width: 100%;
 	text-align: center;
 }
 header nav ul {
-	/*margin: 0; removed*/
 	padding: 0;
 	list-style-type: none;
 }
@@ -87,7 +80,6 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 0.875rem; /*14px*/
 	padding: 5px 10px;
-	/*display: inline; removed*/
 }
 header nav ul li a{
 	text-decoration: none;
@@ -95,23 +87,14 @@ header nav ul li a{
 	
 }
 
-/*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	/*margin: 0 auto; removed*/
-	/*clear: both; removed*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	flex-flow: row wrap;
 }
-
-/*
-.main-image {
-	height: auto;
-	float: left;
-} removed*/
 
 .main-image img {
 	width: 100%;
@@ -121,7 +104,6 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	/*float: left; removed*/
 	border-bottom: 1px solid #eee;
 }
 .main-title h2 {
@@ -139,27 +121,9 @@ header nav ul li a{
 .section-two,
 .section-three {
 	width: 100%;
-	/*height: auto; removed*/
-	/*float: left; removed*/
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 }
-
-/* CSS BLOCKS REMOVED FOR MOBILE
-.section-one h3 {
-	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h3,
-.section-three h3 {
-	padding: 10px 30px;
-} 
-*/
 
 .menu {
 	list-style: none;
@@ -181,12 +145,10 @@ header nav ul li a{
 	line-height: 1.5rem; /*24px*/
 }
 
-/*The widths are in a percentage!*/
+
 footer {
-	/*height: 50px; removed*/
 	border-top: 3px solid #77a466;
 	margin: 0 auto;
-	/*clear: both; removed*/
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -238,6 +200,6 @@ footer span {
 	}
 
 	header nav {
-		width: 40%;
+		width: 50%;
 	}
 }
