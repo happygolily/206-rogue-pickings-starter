@@ -6,4 +6,4 @@ Skills: HTML, CSS, Flexbox
 
 Tools: Photoshop, Chrome DevTools, GitHub Pages
 
-https://lilyyee.github.io/Rogue-Pickings-Responsive/
+https://lilyyee.github.io/Rogue-Pickings-Responsive
